@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#home {
+    /*width: 100%;*/
+    /*height: 802px;*/
+    background: url("../img/home-picture.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-navigation {
+    width:65.3125%;
+    margin-left:15.3125%;
+    margin-right: 19.375%;
+    padding-top: 2.71875rem;
+    /*padding-top: 43.50px;*/
+    /*width:1045px;*/
+    /*margin-left:245px;*/
+    /*margin-right: 310px;*/
+}
+
+.home-navigation .logo {
+    display: inline-block;
+    font: 2.5rem "Pacifico Regular", sans-serif;
+    /*font: 40px "Pacifico Regular", sans-serif;*/
+    color: #ffffff;
+    margin-right: 40.5%;
+    vertical-align: middle;
+    /*margin-right: 423px;*/
+}
+
+.home-navigation .logo-green {
+    color: #1dde85;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.home-navigation ul {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.home-navigation li {
+    font-size: 0.875rem;
+    /*font-size: 14px;*/
+    display: inline-block;
+    margin-right: 2.8571em;
+    /*margin-right: 40px;*/
+    padding: 1em 0;
+    /*padding: 14px 0;*/
+    vertical-align: middle;
+    /*border-bottom: 1px solid #ffffff;*/
+}
+
+.home-navigation li a {
+    font: 0.875rem "Roboto Light", sans-serif;
+    /*font: 14px "Roboto Light", sans-serif;*/
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.home-navigation li:last-child {
+    margin-right: 0;
+}
+
+.home-text {
+    width: 57.5rem;
+    /*width: 920px;*/
+    margin: 0 auto;
+    margin-top: 18.4375rem;
+    padding-bottom: 16.9375rem;
+    color: #ffffff;
+    text-align: center;
+    /*margin-top: 295px;*/
+    /*margin-bottom: 271px;*/
+}
+
+.home-header {
+    font: 3rem "Exo Regular", sans-serif;
+    margin-bottom: 0.875em;
+    /*font: 48px "Exo Regular", sans-serif;*/
+    /*margin-bottom: 42px;*/
+}
+
+.home-header-bold {
+    font: 3rem "Exo Black", sans-serif;
+    /*font: 48px "Exo Black", sans-serif;*/
+    color: #1dde85;
+}
+
+.home-text p {
+    font: 1.125rem "Roboto", sans-serif;
+    line-height: 2em;
+    /*font: 18px "Roboto", sans-serif;*/
+    /*line-height: 36px;*/
+}
+
+#service {
+    width:73.125%;
+    margin: 0 auto;
+    padding-top: 7.75rem;
+    /*width:1170px;*/
+    /*padding-top: 124px;*/
+}
+.service-header {
+    width:76.41%;
+    margin: 0 auto;
+    margin-bottom: 5.1875rem;
+    text-align: center;
+    /*width:894px;*/
+    /*margin-bottom: 83px;*/
+}
+
+.service-header h2 {
+    font: 1.875rem "Roboto Medium", sans-serif;
+    margin-bottom: 2em;
+    color: #454546;
+    /*margin-bottom: 60px;*/
+    /*font: 30px "Roboto Medium", sans-serif;*/
+}
+
+.service-header-bold {
+    text-transform: uppercase;
+    color: #1dde85;
+}
+
+#service p {
+    font: 1.125rem "Roboto Thin", sans-serif;
+    line-height: 1.66666em;
+    color:#8f8e91;
+    /*font: 18px "Roboto", sans-serif;*/
+    /*line-height: 30px;*/
+}
+
+.service-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 77px;
+}
+
+
+.service-item {
+   width:357px;
+    /*padding-right,padding-left:15px ;*/
+/*padding-top: 35.6px;*/
+    /*padding-bottom: 31px;*/
+    padding: 35.6px 15px 31px 15px;
+    margin-bottom: 50px;
+    border: 1px solid #8f8e91;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.service-item h3 {
+    font: 24px "Roboto Medium", sans-serif;
+    color: #454546;
+    margin-bottom: 38px;
+}
+
+.service-item p {
+    font: 14px "Roboto Thin", sans-serif;
+    line-height: 30px;
+    color:#8f8e91;
+}
+
+.service-item svg {
+    width:32px;
+    height: 32px;
+    margin-bottom: 18.59px;
+}
+.cls-1 {
+    fill: #454546;
+    fill-rule: evenodd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
