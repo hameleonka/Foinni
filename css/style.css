@@ -139,6 +139,7 @@ ol, ul {
 
 #service {
     width:73.125%;
+    max-width:1170px;
     margin: 0 auto;
     padding-top: 7.75rem;
     /*width:1170px;*/
@@ -178,43 +179,177 @@ ol, ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin-bottom: 77px;
+    margin-bottom: 4.8125rem;
+    /*margin-bottom: 77px;*/
 }
 
 
 .service-item {
-   width:357px;
-    /*padding-right,padding-left:15px ;*/
-/*padding-top: 35.6px;*/
-    /*padding-bottom: 31px;*/
-    padding: 35.6px 15px 31px 15px;
-    margin-bottom: 50px;
+    width:30.5128%;
+    padding: 2.225rem 0.9375rem 1.9375rem 0.9375rem;
+    margin-bottom: 3.125rem;
     border: 1px solid #8f8e91;
     box-sizing: border-box;
     text-align: center;
+    /*width:357px;*/
+    /*padding: 35.6px 15px 31px 15px;*/
+    /*margin-bottom: 50px;*/
 }
 
 .service-item h3 {
-    font: 24px "Roboto Medium", sans-serif;
+    font: 1.5rem "Roboto Medium", sans-serif;
     color: #454546;
-    margin-bottom: 38px;
+    margin-bottom: 1.5833em;
+    /*font: 24px "Roboto Medium", sans-serif;    */
+    /*margin-bottom: 38px;*/
 }
 
 .service-item p {
-    font: 14px "Roboto Thin", sans-serif;
-    line-height: 30px;
+    font: 0.875rem "Roboto Thin", sans-serif;
+    line-height: 2.1429em;
     color:#8f8e91;
+    /*font: 14px "Roboto Thin", sans-serif;*/
+    /*line-height: 30px;*/
 }
 
 .service-item svg {
-    width:32px;
-    height: 32px;
-    margin-bottom: 18.59px;
+    width:2rem;
+    height: 2rem;
+    margin-bottom: 1.1619rem;
+    /*width:32px;*/
+    /*height: 32px;*/
+    /*margin-bottom: 18.59px;*/
 }
+
 .cls-1 {
     fill: #454546;
     fill-rule: evenodd;
 }
+
+.service-meet-us {
+    margin-bottom: 9.0625rem;
+    /*margin-bottom: 145px;*/
+}
+
+.service-header {
+    font: 1.875rem "Roboto Medium", sans-serif;
+    margin-bottom: 2.6em;
+    color: #454546;
+    /*margin-bottom: 78px;*/
+    /*font: 30px "Roboto Medium", sans-serif;*/
+}
+
+.photo-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.photo-list-person {
+    width:22.9915%;
+    max-width:269px;
+    position: relative;
+}
+
+.photo-person img {
+    max-width: 100%;
+}
+
+.photo-text {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    max-width:269px;
+    background: rgba(66, 66, 67, 0.94);
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.photo-text h4 {
+    font: 1.125rem "Roboto Regular", sans-serif;
+    margin-bottom: 0.4444em;
+    /*font: 18px "Roboto Regular", sans-serif;*/
+    /*margin-bottom: 8px;*/
+}
+
+#service .photo-text p {
+    font: 0.8755rem "Roboto Regular", sans-serif;
+    /*font: 14px "Roboto Regular", sans-serif;*/
+}
+
+.photo-contacts {
+    display: none;
+}
+
+#portfolio {
+    width:73.125%;
+    max-width:1170px;
+    margin: 0 auto;
+}
+
+#portfolio h2 {
+    font: 1.875rem "Roboto Medium", sans-serif;
+    /*font: 30px "Roboto Medium", sans-serif;*/
+    text-align: center;
+    margin-bottom: 1.36666em;
+    /*margin-bottom: 41px;*/
+    color: #454546;
+}
+.portfolio-navigation {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3.0625rem;
+    /*margin-bottom: 49px;*/
+}
+.portfolio-navigation li {
+    display: inline-block;
+    margin-right: 2.8571em;
+    font: 1.125rem "Roboto Light", sans-serif;
+    /*font: 18px "Roboto Light", sans-serif;*/
+    /*margin-right: 40px;*/
+    padding: 0.4444em 0;
+    /*padding: 8px 0;*/
+}
+
+.portfolio-navigation li a {
+    text-decoration: none;
+    font: 1.125rem "Roboto Light", sans-serif;
+    /*font: 18px "Roboto Light", sans-serif;*/
+    color:#434243;
+}
+
+.portfolio-navigation li:last-child {
+    margin-right: 0;
+}
+
+.portfolio-photoblock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.portfolio-photo {
+    width: 33.33333333333%;
+    /*width: 390px;*/
+    margin-bottom: 3.25rem;
+    /*margin-bottom: 52px;*/
+}
+
+.portfolio-photo img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
