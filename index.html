@@ -384,11 +384,13 @@
 
     <form class="sayhi-form" action="#" method="post">
         <fieldset>
-            <input type="text" name="name" value="" placeholder="Your name" required>
+            <div class="form-wrapper">
+            <input type="text" name="name" value="" placeholder="Your Name" required>
             <input type="text" name="e-mail" value="" placeholder="Your Mail?" required>
-            <textarea rows="5" placeholder="Your Message..." required></textarea>
+            <textarea rows="12" placeholder="Your Message..." required></textarea>
+            </div>
         </fieldset>
-        <button class="btn btn-sayhi-form" type="submit">Send Message</button>
+        <button class="btn sayhi-form-btn" type="submit">Send Message</button>
     </form>
 </div>
 

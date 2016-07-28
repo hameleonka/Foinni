@@ -378,8 +378,10 @@ ol, ul {
     font: 1.125rem "Roboto Light", sans-serif;
     /*font: 18px "Roboto Light", sans-serif;*/
     color:#fffcf4;
-     padding: 1.055555em 3.3333333em;
+     padding: 1.055555em 0;
     /*padding: 19px 60px;*/
+    width:10.7777777em;
+    /*width:194px;*/
 }
 
 #pricing {
@@ -425,7 +427,7 @@ ol, ul {
     /*font: 36px "RobotoSlab Regular", sans-serif;*/
     text-align: center;
     color: #454546;
-    padding: 0.5833em 2.3611em;
+    padding: 0.5833em 0;
     /*padding: 21px 85px;*/
     border:1px solid #454546;
     margin-bottom: 0.8888em;
@@ -454,11 +456,13 @@ ol, ul {
 }
 
 .pricing-plan .btn {
+    width: 7em;
+    /*width: 98px;*/
     background-color: #ffffff;
     color: #454546;
     font: 0.875rem "Roboto Regular", sans-serif;
     /*font: 14px "Roboto Regular", sans-serif;*/
-    padding: 0.9286em;
+    padding: 0.9286em 0;
     /*padding: 13px*/
     border: 1px solid #454546;
     box-sizing: border-box;
@@ -471,6 +475,77 @@ ol, ul {
     padding: 2.4375rem 0;
     /*padding: 39px 0;*/
 }
+
+#contacts h2 {
+    font: 1.875rem "Roboto Medium", sans-serif;
+    /*font: 30px "Roboto Medium", sans-serif;*/
+    text-align: center;
+    margin-bottom: 0.9em;
+    /*margin-bottom: 27px;*/
+    color: #fffcf4;
+    text-transform: uppercase;
+}
+
+.sayhi-form {
+    width:55.9375%;
+    max-width:895px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sayhi-form fieldset {
+    margin-bottom: 1.75rem;
+    /*margin-bottom: 28px;*/
+}
+
+.sayhi-form .form-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.sayhi-form input {
+    width:48.3798%;
+    /*width:433px;*/
+    background: transparent;
+    border: 1px solid #fffcf4;
+    padding: 1.2857em;
+    /*padding: 18px;*/
+    font: 0.875rem "Roboto Medium", sans-serif;
+    /*font: 14px "Roboto Regular", sans-serif;*/
+    margin-bottom: 0.9em;
+    /*margin-bottom: 27px;*/
+    color: #fffcf4;
+    box-sizing: border-box;
+}
+
+.sayhi-form textarea {
+    width:100%;
+    background: transparent;
+    border: 1px solid #fffcf4;
+    padding: 1.2857em;
+    /*padding: 18px;*/
+    box-sizing: border-box;
+    font: 0.875rem "Roboto", sans-serif;
+    /*font: 14px "Roboto Regular", sans-serif;*/
+    color: #fffcf4;
+    font-style: italic;
+}
+
+#contacts .sayhi-form-btn {
+    width:10.7777777em;
+    /*width:194px;*/
+    background-color: #1dde85;
+    font: 1.125rem "Roboto Light", sans-serif;
+    /*font: 18px "Roboto Light", sans-serif;*/
+    color:#fffcf4;
+    padding: 1.055555em 0;
+    /*padding: 19px 60px;*/
+    border-style: none;
+}
+
+
+
+
 
 
 
