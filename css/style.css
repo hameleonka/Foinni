@@ -60,12 +60,14 @@ ol, ul {
 }
 
 .home-navigation .logo {
-    display: inline-block;
+    display: block;
+    float:left;
     font: 2.5rem "Pacifico Regular", sans-serif;
     /*font: 40px "Pacifico Regular", sans-serif;*/
     color: #ffffff;
-    margin-right: 40.5%;
+    /*margin-right: 40.5%;*/
     vertical-align: middle;
+    /*text-align: left;*/
     /*margin-right: 423px;*/
 }
 
@@ -76,9 +78,10 @@ ol, ul {
 }
 
 .home-navigation ul {
-    display: inline-block;
+    display: block;
+    float:right;
     vertical-align: middle;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 .home-navigation li {
@@ -90,7 +93,8 @@ ol, ul {
     padding: 1em 0;
     /*padding: 14px 0;*/
     vertical-align: middle;
-    /*border-bottom: 1px solid #ffffff;*/
+    /*box-sizing: border-box;*/
+    border-bottom: 1px solid transparent;
 }
 
 .home-navigation li a {
@@ -99,6 +103,15 @@ ol, ul {
     text-transform: uppercase;
     color: #ffffff;
     text-decoration: none;
+}
+
+.home-navigation li:hover {
+    border-bottom: 1px solid #1dde85;
+    /*box-sizing: border-box;*/
+}
+
+.home-navigation li:hover a {
+    color: #1dde85;
 }
 
 .home-navigation li:last-child {
@@ -226,6 +239,19 @@ ol, ul {
     fill-rule: evenodd;
 }
 
+.service-item:hover {
+    border: 1px solid #1dde85;
+}
+
+.service-item:hover .cls-1 {
+    fill: #1dde85;
+    fill-rule: evenodd;
+}
+
+.service-item:hover h3 {
+    color: #1dde85;
+}
+
 .service-meet-us {
     margin-bottom: 9.0625rem;
     /*margin-bottom: 145px;*/
@@ -313,6 +339,7 @@ ol, ul {
     /*margin-right: 40px;*/
     padding: 0.4444em 0;
     /*padding: 8px 0;*/
+    border-bottom:1px solid transparent;
 }
 
 .portfolio-navigation li a {
@@ -324,6 +351,14 @@ ol, ul {
 
 .portfolio-navigation li:last-child {
     margin-right: 0;
+}
+
+.portfolio-navigation li:hover {
+    border-bottom: 1px solid #1dde85;
+}
+
+.portfolio-navigation li:hover a {
+    color:#1dde85;
 }
 
 .portfolio-photoblock {
@@ -389,8 +424,8 @@ ol, ul {
     max-width:1170px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 10.375rem;
-    /*margin-bottom: 166px;*/
+    margin-bottom: 7.9375rem;
+    /*margin-bottom: 127px;*/
 }
 
 #pricing h2 {
@@ -415,11 +450,16 @@ ol, ul {
     /*font: 14px "Roboto Regular", sans-serif;*/
     text-align: center;
     color: #8f8e91;
+    box-sizing: border-box;
 }
 
 .pricing-plan h4 {
     margin-bottom:2.2857em;
     /*margin-bottom: 32px;*/
+}
+
+.price-wrapper {
+    border:1px solid transparent;
 }
 
 .pricing-plan .price {
@@ -458,7 +498,7 @@ ol, ul {
 .pricing-plan .btn {
     width: 7em;
     /*width: 98px;*/
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     color: #454546;
     font: 0.875rem "Roboto Regular", sans-serif;
     /*font: 14px "Roboto Regular", sans-serif;*/
@@ -466,7 +506,31 @@ ol, ul {
     /*padding: 13px*/
     border: 1px solid #454546;
     box-sizing: border-box;
+    margin-bottom: 1.5714em;
+    /*margin-bottom: 22px;*/
 }
+
+.pricing-plan:hover h4 {
+    color: #1dde85;
+}
+
+.pricing-plan:hover .price-wrapper{
+    border:1px solid #1dde85;
+}
+
+.pricing-plan:hover .price {
+    background-color: #1dde85;
+    border-color: transparent;
+    color: #fffcf4;
+}
+
+.pricing-plan:hover .btn {
+    background-color: #1dde85;
+    color: #fffcf4;
+    border-color: transparent;
+}
+
+
 
 #contacts{
     background: url("../img/contacts-picture.jpg") no-repeat;
@@ -542,6 +606,194 @@ ol, ul {
     /*padding: 19px 60px;*/
     border-style: none;
 }
+
+.sayhi-form input:focus,
+.sayhi-form textarea:focus {
+    outline: none !important;
+    border:1px solid #2fdc8c;
+}
+
+footer {
+    padding-top: 2.4375rem;
+    /*padding-top: 39px;*/
+    background-color: #0b0a0a;
+}
+
+footer .container-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width:73.125%;
+    max-width:1170px;
+    margin: 0 auto;
+    padding-bottom: 4.375rem;
+    /*padding-bottom: 70px;*/
+}
+
+footer .container-center h4 {
+    font: 1.125rem "Roboto Regular", sans-serif;
+    /*font: 18px "Roboto Light", sans-serif;*/
+    color:#ffffff;
+    margin-bottom: 1.111111em;
+    /*margin-bottom: 20px;*/
+}
+
+.footer-aboutus {
+    width: 27.6068%;
+    /*width: 323px;*/
+}
+
+.footer-aboutus p {
+    font: 0.875rem "Roboto Regular", sans-serif;
+    /*font: 14px "Roboto Light", sans-serif;*/
+    color:#8f8e91;
+    line-height:2.1429em;
+    /*line-height: 30px;*/
+    margin-top: -0.3em;
+}
+
+
+
+.footer-links {
+    /*width: 14.8718%;*/
+    /*width: 174px;*/
+    width: 17.4359%;
+    min-width: 204px;
+}
+.footer-links table {
+    width: 100%;
+}
+
+.footer-links td {
+    padding-bottom: 12px;
+}
+
+.footer-links a {
+    font: 0.875rem "Roboto Regular", sans-serif;
+    /*font: 14px "Roboto Light", sans-serif;*/
+    color:#8f8e91;
+    text-decoration: none;
+}
+.footer-links td:hover a {
+    color:#2fdc8c;
+}
+
+
+.footer-contacts {
+    width: 21.1966%;
+    /*width: 248px;*/
+}
+.social-block {
+    font-size: 0;
+    margin-bottom: 1rem;
+    /*margin-bottom: 16px;*/
+}
+
+.footer-contacts .social-btn {
+     width: 2.25rem;
+     height: 2.25rem;
+     border:1px solid #8f8e91;
+     font-size: 0;
+     text-decoration: none;
+     display: inline-block;
+     vertical-align: middle;
+     margin-right:0.5rem;
+    /*width: 36px;*/
+    /*height: 36px;*/
+    /*margin-right: 8px;*/
+ }
+
+.footer-contacts .social-btn:last-child {
+    margin-right: 0;
+}
+
+
+.footer-contacts .social-btn svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.centerer {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footer-contacts .social-btn:hover .cls-1 {
+    fill: #1dde85;
+    fill-rule: evenodd;
+}
+
+.footer-contacts .social-btn:hover {
+    border-color:#1dde85;
+}
+
+.subscribe-form input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #8f8e91;
+    padding: 1em;
+    /*padding: 14px;*/
+    font: 0.875rem "Roboto Regular", sans-serif;
+    /*font: 14px "Roboto Regular", sans-serif;*/
+    margin-bottom: 1rem;
+    /*margin-bottom: 16px;*/
+    color: #8f8e91;
+    box-sizing: border-box;
+}
+
+.subscribe-form .btn-subscribe-form {
+    width:6.5625em;
+    /*width:105px;*/
+    background-color: #1dde85;
+    font: 1rem "Roboto Light", sans-serif;
+    /*font: 16px "Roboto Light", sans-serif;*/
+    color:#fffcf4;
+    padding: .8125em 0;
+    /*padding: 13px 60px;*/
+    border-style: none;
+}
+
+.subscribe-form input:focus  {
+    outline: none !important;
+    border:1px solid #2fdc8c;
+}
+
+.footer-copyright {
+    background-color: #000000;
+    text-align: center;
+}
+
+.footer-copyright p {
+    font: 0.875rem "Roboto Regular", sans-serif;
+    /*font: 14px "Roboto Regular", sans-serif;*/
+    color: #8f8e91;
+    padding: 2.0714em 0;
+    /*padding: 29px 0;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
