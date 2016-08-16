@@ -530,6 +530,7 @@ ol, ul {
 
 .sayhi-form fieldset {
     margin-bottom: 1.75rem;
+    border: none;
 }
 
 .sayhi-form .form-wrapper {
