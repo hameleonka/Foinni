@@ -530,6 +530,7 @@ ol, ul {
 
 .sayhi-form fieldset {
     margin-bottom: 1.75rem;
+    border: none;
 }
 
 .sayhi-form .form-wrapper {
@@ -674,6 +675,12 @@ footer .container-center h4 {
 .footer-contacts .social-btn:hover {
     border-color: #1dde85;
 }
+
+.subscribe-form fieldset {
+    border: none;
+    padding-left: 0;
+}
+
 
 .subscribe-form input {
     width: 100%;
