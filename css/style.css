@@ -676,6 +676,12 @@ footer .container-center h4 {
     border-color: #1dde85;
 }
 
+.subscribe-form fieldset {
+    border: none;
+    padding-left: 0;
+}
+
+
 .subscribe-form input {
     width: 100%;
     background: transparent;
