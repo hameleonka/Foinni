@@ -52,11 +52,15 @@ ol, ul {
     padding-top: 1rem;
     position: relative;
     z-index: 200;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .home-navigation .logo {
     display: block;
-    float: left;
+    /*float: left;*/
     font: 2rem "Pacifico Regular", sans-serif;
     color: #ffffff;
     height: 8vh;
@@ -71,11 +75,11 @@ ol, ul {
 
 .home-navigation .menu-icon {
     display: block;
-    float: right;
-    width: 8vh;
-    height: 8vh;
+    /*float: right;*/
+    width: 5vh;
+    height: 5vh;
     background: url(../img/menu-icon.png) center no-repeat;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .menu-wrapper {
@@ -151,13 +155,17 @@ ol, ul {
     margin: 0 auto;
 }
 
+#service .home-navigation {
+    width:100%;
+}
+
 #service .home-navigation .logo,
 .service-meet-us .home-navigation .logo,
 #portfolio .home-navigation .logo,
 #pricing .home-navigation .logo
 {
     color: #454546;
-    margin-bottom: 1em;
+
 }
 
 #service .home-navigation .menu-icon,
@@ -370,6 +378,10 @@ ol, ul {
     text-align: center;
 }
 
+#portfolio .home-navigation {
+    width:100%;
+}
+
 #portfolio h2 {
     font: 1.875rem "Roboto Medium", sans-serif;
     text-align: center;
@@ -456,6 +468,11 @@ ol, ul {
     margin: 0 auto;
     text-align: center;
 }
+
+#pricing .home-navigation {
+    width:100%;
+}
+
 
 #pricing h2 {
     font: 1.875rem "Roboto Medium", sans-serif;
@@ -583,7 +600,7 @@ ol, ul {
 }
 
 .sayhi-form input {
-    width:48.3798%;
+    width:100%;
     background: transparent;
     border: 1px solid #fffcf4;
     padding: 1.2857em;
